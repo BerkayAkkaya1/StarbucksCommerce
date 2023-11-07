@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarbucksCommerce3", "StarbucksCommerce3\StarbucksCommerce3.csproj", "{77E364CC-AD3B-45F5-9CA4-2965EFEC7D86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarbucksCommerce3", "StarbucksCommerce3\StarbucksCommerce3.csproj", "{77E364CC-AD3B-45F5-9CA4-2965EFEC7D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{AC081AA8-D692-4860-AEA7-714B0FBC3681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{172E9EC9-18DA-4EE9-895A-8D5EA08B4198}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{77E364CC-AD3B-45F5-9CA4-2965EFEC7D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77E364CC-AD3B-45F5-9CA4-2965EFEC7D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77E364CC-AD3B-45F5-9CA4-2965EFEC7D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC081AA8-D692-4860-AEA7-714B0FBC3681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC081AA8-D692-4860-AEA7-714B0FBC3681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC081AA8-D692-4860-AEA7-714B0FBC3681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC081AA8-D692-4860-AEA7-714B0FBC3681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172E9EC9-18DA-4EE9-895A-8D5EA08B4198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172E9EC9-18DA-4EE9-895A-8D5EA08B4198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172E9EC9-18DA-4EE9-895A-8D5EA08B4198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172E9EC9-18DA-4EE9-895A-8D5EA08B4198}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
